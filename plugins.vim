@@ -23,9 +23,6 @@ Plug 'sjl/gundo.vim'
 " The Silver Surfer: 
 Plug 'rking/ag.vim'
 
-" Close Buffers Keeping Panes Open:
-Plug 'vadimr/bclose.vim'
-
 " Change 1.8 -> 1.9 Hash Syntax:
 Plug 'ck3g/vim-change-hash-syntax'
 
