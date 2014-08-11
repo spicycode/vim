@@ -21,6 +21,8 @@ nnoremap <leader>lf :CtrlP<cr>
 nnoremap <leader>lb :CtrlPBuffer<cr>
 nnoremap <leader>lt :CtrlPTag<cr>
 
+nnoremap K :Ag <C-R><C-W><CR>
+
 " In command-line mode, C-a jumps to beginning (to match C-e)
 cnoremap <C-a> <Home>
 
