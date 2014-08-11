@@ -36,6 +36,13 @@ Bundle "ck3g/vim-change-hash-syntax"
 " RuboCop -> Quickfix (I like this better than always on syntastic):
 Bundle "ngmy/vim-rubocop"
 
+" Current function info for status bar
+Bundle "vim-scripts/current-func-info.vim"
+
+" Fuzzy Finding:
+Bundle "kien/ctrlp.vim"
+" Bundle "Shougo/neocomplcache.vim"
+
 " The Tim Pope section of the VIM config:
 Bundle "tpope/vim-git"
 Bundle "tpope/vim-bundler"
@@ -48,14 +55,4 @@ Bundle "tpope/vim-rails"
 Bundle "tpope/vim-rake"
 Bundle "tpope/vim-surround"
 
-" Unite and vimproc (for async)
-" Bundle "Shougo/unite.vim"
-" Bundle "Shougo/vimproc.vim"
 
-" Unite addons
-" Bundle "Shougo/unite-outline"
-" Bundle "osyo-manga/unite-quickfix"
-" Bundle "tsukkee/unite-tag"
-" Bundle "airblade/vim-gitgutter"
-" Bundle "bling/vim-airline"
-" Bundle "Shougo/neocomplcache.vim"

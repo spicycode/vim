@@ -10,10 +10,6 @@ let g:ScreenImpl = 'Tmux'
 
 set tags=./.tags;,./tags
 
-" GitGutter:
-let g:gitgutter_escape_grep = 1
-let g:gitgutter_realtime = 0
-
 " Airline:
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 0

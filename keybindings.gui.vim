@@ -34,20 +34,20 @@ if has("mac")
   macmenu &File.New\ Tab key=<nop>
 
   " Change Apple+T to TextMate Like Fuzzy Finder
-  nnoremap <D-t> :<C-u>Unite -no-split -profile-name=files file_rec/async:!<cr>
+  nnoremap <D-t> :CtrlP<cr>
 
   " Unmap Apple+Shift+T so we can...
   macmenu &File.Open\ Tab\.\.\. key=<nop>
 
   " CommandShiftT: Fuzzy Find by Tag
-  nnoremap <D-T> :<C-u>Unite -no-split -profile-name=tag tag<cr>
+  nnoremap <D-T> :CtrlPTag<cr>
 
   " Unmap Apple+b so we can...
   macmenu &Tools.Make key=<nop>
 
   " Change Apple+b to Emacseque buffer browser
-  nnoremap <D-b> :<C-u>Unite -no-split -profile-name=buffer buffer<cr>
-  imap <D-b>: <C-u>Unite -no-split -profile-name=buffer buffer<cr>
+  nnoremap <D-b> :CtrlPBuffer<cr>
+  imap <D-b>: :CtrlPBuffer<cr>
 
   " Unmap Apple+S to remap to Esc, then :w<CR>
   macmenu &File.Save key=<nop>
@@ -65,6 +65,6 @@ if has("mac")
   nnoremap <D-f> /
 
   " Apple+R to run spec in Dispatch
-  nnoremap <D-r> :Dispatch rspec %<CR>
+  nnoremap <D-r> :Dispatch<CR>
 
 endif

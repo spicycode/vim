@@ -16,13 +16,10 @@ map <leader>f :Ag<Space>
 nmap <leader>q :Bclose<CR>
 nmap <leader>b :bd<CR>
 
-nnoremap <c-p> :<C-u>Unite -no-split -profile-name=files file_rec/async:!<cr>
-nnoremap <leader>lc :<C-u>Unite -no-split -profile-name=files file_rec/async:!<cr>
-nnoremap <leader>lf :<C-u>Unite -no-split -profile-name=files file<cr>
-nnoremap <leader>lo :<C-u>Unite -no-split outline<cr>
-nnoremap <leader>ly :<C-u>Unite -no-split history/yank<cr>
-nnoremap <leader>lb :<C-u>Unite -no-split -profile-name=buffer buffer<cr>
-nnoremap <leader>lt :<C-u>Unite -no-split -profile-name=tag tag<cr>
+nnoremap <leader>lc :CtrlP<cr>
+nnoremap <leader>lf :CtrlP<cr>
+nnoremap <leader>lb :CtrlPBuffer<cr>
+nnoremap <leader>lt :CtrlPTag<cr>
 
 " In command-line mode, C-a jumps to beginning (to match C-e)
 cnoremap <C-a> <Home>
