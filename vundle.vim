@@ -42,6 +42,9 @@ Bundle "vim-scripts/current-func-info.vim"
 " Fuzzy Finding:
 Bundle "ctrlpvim/ctrlp.vim"
 
+" AutoCompletion
+Bundle "Shougo/neocomplcache.vim"
+
 " The Tim Pope section of the VIM config:
 Bundle "tpope/vim-git"
 Bundle "tpope/vim-bundler"
