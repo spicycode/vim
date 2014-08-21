@@ -27,8 +27,9 @@ let g:neocomplcache_force_overwrite_completefunc = 1
 " CtrlP:
 
 " Silver surfer time
-" let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-let g:ctrlp_user_command = 'ag %s --files-with-matches -g "" --ignore "\.git$\|\.hg$\|\.svn$"'
+let g:ctrlp_cache_dir = '/tmp/ctrlp'
+ 
+let g:ctrlp_user_command = 'ag %s --nocolor -g ""'
 
 " ag is fast enough that CtrlP doesn't need to cache
 let g:ctrlp_use_caching = 0

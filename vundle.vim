@@ -40,7 +40,7 @@ Bundle "ngmy/vim-rubocop"
 Bundle "vim-scripts/current-func-info.vim"
 
 " Fuzzy Finding:
-Bundle "kien/ctrlp.vim"
+Bundle "ctrlpvim/ctrlp.vim"
 
 " The Tim Pope section of the VIM config:
 Bundle "tpope/vim-git"
