@@ -11,6 +11,7 @@ Bundle "tpope/vim-vinegar"
 " Color Schemes:
 Bundle "chriskempson/base16-vim"
 Bundle "noahfrederick/vim-hemisu"
+Bundle "whatyouhide/vim-gotham"
 
 " Syntax Extensions:
 Bundle "kchmck/vim-coffee-script"
@@ -57,4 +58,5 @@ Bundle "tpope/vim-rails"
 Bundle "tpope/vim-rake"
 Bundle "tpope/vim-surround"
 
+Bundle "gerw/vim-HiLinkTrace"
 

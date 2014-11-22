@@ -35,3 +35,5 @@ nmap <leader>P PV`]=
 
 " Apple+R to run spec in Dispatch
 nnoremap <leader>r :Dispatch<CR>
+" Run GitHub tests
+nnoremap <leader>gr :Dispatch testrb %<CR>
