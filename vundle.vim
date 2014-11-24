@@ -5,7 +5,7 @@ call vundle#rc()
 " Bundles:
 Bundle "gmarik/vundle"
 
-" NetRW extensions:
+" NetRW Extensions:
 Bundle "tpope/vim-vinegar"
 
 " Color Schemes:
@@ -19,16 +19,16 @@ Bundle "pangloss/vim-javascript"
 Bundle "cakebaker/scss-syntax.vim"
 Bundle "vim-ruby/vim-ruby"
 
-" Enable fancy tmux navigation
+" Enable Fancy TMUX Navigation:
 Bundle "christoomey/vim-tmux-navigator"
 
-" Graphical undo visualization:
+" Graphical Undo Visualization:
 Bundle "sjl/gundo.vim"
 
 " The Silver Surfer: 
 Bundle "rking/ag.vim"
 
-" Close buffers, keeping panes open:
+" Close Buffers Keeping Panes Open:
 Bundle "vadimr/bclose.vim"
 
 " Change 1.8 -> 1.9 Hash Syntax:
@@ -43,7 +43,7 @@ Bundle "vim-scripts/current-func-info.vim"
 " Fuzzy Finding:
 Bundle "ctrlpvim/ctrlp.vim"
 
-" AutoCompletion
+" AutoCompletion:
 Bundle "Shougo/neocomplcache.vim"
 
 " The Tim Pope section of the VIM config:
@@ -59,4 +59,3 @@ Bundle "tpope/vim-rake"
 Bundle "tpope/vim-surround"
 
 Bundle "gerw/vim-HiLinkTrace"
-
