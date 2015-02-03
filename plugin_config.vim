@@ -46,4 +46,5 @@ let g:ctrlp_use_caching = 1
 " Open files in existing buffers, ctrl-t opens in new tab
 let g:ctrlp_switch_buffer = 'ET'
 
-" let g:ctrlp_regexp = 1
+let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
+

@@ -42,6 +42,7 @@ Bundle "vim-scripts/current-func-info.vim"
 
 " Fuzzy Finding:
 Bundle "ctrlpvim/ctrlp.vim"
+Bundle "JazzCore/ctrlp-cmatcher"
 
 " AutoCompletion:
 Bundle "Shougo/neocomplcache.vim"
