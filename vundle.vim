@@ -41,7 +41,8 @@ Bundle "ngmy/vim-rubocop"
 Bundle "vim-scripts/current-func-info.vim"
 
 " Fuzzy Finding:
-Bundle "ctrlpvim/ctrlp.vim"
+Bundle "Shougo/unite.vim"
+Bundle "Shougo/vimproc.vim"
 
 " AutoCompletion:
 Bundle "Shougo/neocomplcache.vim"
@@ -59,3 +60,4 @@ Bundle "tpope/vim-rake"
 Bundle "tpope/vim-surround"
 
 Bundle "gerw/vim-HiLinkTrace"
+

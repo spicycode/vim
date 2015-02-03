@@ -32,18 +32,3 @@ function! s:check_back_space()"{{{
   return !col || getline('.')[col - 1] =~ '\s'
 endfunction"}}
 
-
-" CtrlP:
-
-" Silver surfer time
-let g:ctrlp_cache_dir = '/tmp/ctrlp'
- 
-let g:ctrlp_user_command = 'ag %s --nocolor -g ""'
-
-" ag is fast enough that CtrlP doesn't need to cache
-let g:ctrlp_use_caching = 1
-
-" Open files in existing buffers, ctrl-t opens in new tab
-let g:ctrlp_switch_buffer = 'ET'
-
-" let g:ctrlp_regexp = 1
