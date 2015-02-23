@@ -58,5 +58,6 @@ Bundle "tpope/vim-markdown"
 Bundle "tpope/vim-rails"
 Bundle "tpope/vim-rake"
 Bundle "tpope/vim-surround"
+Bundle "tpope/vim-tbone"
 
 Bundle "gerw/vim-HiLinkTrace"
