@@ -17,8 +17,8 @@ let g:ScreenImpl = 'Tmux'
 
 
 " CtrlP:
-" Open files in existing buffers, ctrl-t opens in new tab
-let g:ctrlp_switch_buffer = 'ET'
+" ctrl-t opens in new tab
+let g:ctrlp_switch_buffer = 'T'
 
 " Use ctrlp-cmatcher to find files
 let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
