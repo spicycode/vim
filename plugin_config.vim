@@ -34,17 +34,22 @@ endfunction"}}
 
 
 " CtrlP:
-
-" Silver surfer time
-let g:ctrlp_cache_dir = '/tmp/ctrlp'
- 
-let g:ctrlp_user_command = 'ag %s --nocolor -g ""'
-
-" ag is fast enough that CtrlP doesn't need to cache
-let g:ctrlp_use_caching = 1
-
 " Open files in existing buffers, ctrl-t opens in new tab
 let g:ctrlp_switch_buffer = 'ET'
 
+" Use ctrlp-cmatcher to find files
 let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
+
+" ==================== CtrlP ====================
+" funky adds functions definitions mode to CtrlP
+let g:ctrlp_extensions = ['tag']
+let g:ctrlp_custom_ignore = {
+    \ 'dir': '\.git$\|\.hg$\|\.svn$',
+    \ 'file': '\.exe$\|\.so$\|\.dll$' }
+
+let g:ctrlp_user_command = {
+    \ 'types': {
+        \ 1: ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others'],
+    \ }
+\ }
 

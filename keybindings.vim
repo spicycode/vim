@@ -20,6 +20,7 @@ nnoremap <leader>lc :CtrlP<cr>
 nnoremap <leader>lf :CtrlP<cr>
 nnoremap <leader>lb :CtrlPBuffer<cr>
 nnoremap <leader>lt :CtrlPTag<cr>
+nnoremap <C-l> :CtrlPMRUFiles<CR>
 
 nnoremap K :Ag <C-R><C-W><CR>
 
@@ -37,3 +38,6 @@ nmap <leader>P PV`]=
 nnoremap <leader>r :Dispatch<CR>
 " Run GitHub tests
 nnoremap <leader>gr :Dispatch testrb %<CR>
+
+" Let us use jj to esc
+imap jj <Esc>
