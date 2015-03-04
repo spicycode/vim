@@ -39,9 +39,8 @@ Plug 'vim-scripts/current-func-info.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'JazzCore/ctrlp-cmatcher', { 'do': './install.sh' }
 
-
 " AutoCompletion:
-Plug 'Shougo/neocomplcache.vim'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.sh'}
 
 " The Tim Pope section of the VIM config:
 Plug 'tpope/vim-git'
