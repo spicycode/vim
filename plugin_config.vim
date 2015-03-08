@@ -24,7 +24,6 @@ let g:ctrlp_switch_buffer = 'T'
 let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
 
 " ==================== CtrlP ====================
-" funky adds functions definitions mode to CtrlP
 let g:ctrlp_extensions = ['tag']
 let g:ctrlp_custom_ignore = {
     \ 'dir': '\.git$\|\.hg$\|\.svn$',
@@ -36,12 +35,50 @@ let g:ctrlp_user_command = {
     \ }
 \ }
 
-" YouCompleteMe:
-" Disable completion previews with function prototypes, etc.
-set completeopt=menu
-let g:ycm_add_preview_to_completeopt = 0
-"let g:ycm_autoclose_preview_window_after_completion = 1
-let g:ycm_complete_in_comments_and_strings = 1
-let g:ycm_collect_identifiers_from_comments_and_strings = 1
+
+" TabCompletion:
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : <SID>check_back_space() ? "\<TAB>" : "\<C-x>\<C-u>"
+function! s:check_back_space()"{{{
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1] =~ '\s'
+endfunction"}}
+
+" NeoComplCache:
+" Disable AutoComplPop.
+let g:acp_enableAtStartup = 0
+let g:neocomplcache_disable_auto_complete = 1
+
+let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_smart_case = 1
+let g:neocomplcache_enable_auto_delimiter = 1
+let g:neocomplcache_max_list = 15
+let g:neocomplcache_force_overwrite_completefunc = 1
+
+" Enable heavy omni completion.
+if !exists('g:neocomplcache_omni_patterns')
+  let g:neocomplcache_omni_patterns = {}
+endif
+
+" Extra omnicomplete patterns
+let g:neocomplcache_omni_patterns.ruby = '[^. *\t]\.\h\w*\|\h\w*::'
+let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
+let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
+let g:neocomplcache_omni_patterns.go = '\h\w*\.\?'
+
+" Let neocompl cache know what language includes look like
+let g:neocomplcache_include_patterns = {
+  \ 'cpp' : '^\s*#\s*include',
+  \ 'ruby' : '^\s*require',
+  \ }
+
+let g:neocomplcache_include_exprs = {
+  \ 'ruby' : substitute(v:fname,'::','/','g')
+  \ }
+
+let g:neocomplcache_include_suffixes = {
+  \ 'ruby' : '.rb',
+  \ 'haskell' : '.hs'
+  \ }
 
 
+let g:neocomplcache#sources#rsense#home_directory = '/opt/boxen/rbenv/versions/2.1.5-github1/lib/ruby/gems/2.1.0/gems/rsense-0.5.18/bin/rsense'

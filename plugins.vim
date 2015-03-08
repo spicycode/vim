@@ -40,7 +40,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'JazzCore/ctrlp-cmatcher', { 'do': './install.sh' }
 
 " AutoCompletion:
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh'}
+Plug 'Shougo/neocomplcache.vim'
 
 " The Tim Pope section of the VIM config:
 Plug 'tpope/vim-git'
