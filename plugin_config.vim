@@ -80,5 +80,3 @@ let g:neocomplcache_include_suffixes = {
   \ 'haskell' : '.hs'
   \ }
 
-
-let g:neocomplcache#sources#rsense#home_directory = '/opt/boxen/rbenv/versions/2.1.5-github1/lib/ruby/gems/2.1.0/gems/rsense-0.5.18/bin/rsense'
