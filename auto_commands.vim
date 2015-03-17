@@ -18,3 +18,7 @@ endfun
 
 " Delete trailing whitespace on save
 autocmd BufWritePre {*.rb,*.js,*.coffee} :call <SID>StripTrailingWhitespaces()
+
+" Invoke a bang command to let autoread work consistently in console/tmux
+autocmd FocusGained,BufEnter * :silent! !
+

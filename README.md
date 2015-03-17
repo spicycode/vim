@@ -4,11 +4,14 @@ VIM was reborn like unto the noble phoenix.  And so it was as it always should b
 
 ## To install
 
-    ln -s ~/whereveryouputit ~/.vim
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
-    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-    vim +BundleInstall +qall
+```sh
+ln -s ~/whereveryouputit ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+
+vim +PlugInstall +qall
+
+cd bundle/ctrlp-cmatcher && ./install.sh && cd - 
+```
 
 ## Per user config
 
@@ -21,9 +24,9 @@ Then, sprinkle to taste with your defaults, undoing my craziness, etc.  These fi
 
 ## On first run
 
-You will see errors, but this is just Vim complaining about not having the plugins it wants installed.   Simply run:
+If you see errors, but this is just Vim complaining about not having the plugins it wants installed.   Simply run:
 
-    :BundleInstall!
+    :PlugInstall
 
 ## Who runs this?
 
