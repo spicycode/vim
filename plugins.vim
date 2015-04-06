@@ -56,4 +56,7 @@ Plug 'tpope/vim-surround'
 
 Plug 'gerw/vim-HiLinkTrace'
 
+" Fix autoread 
+Plug 'tmux-plugins/vim-tmux-focus-events'
+
 call plug#end()
