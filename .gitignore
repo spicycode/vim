@@ -2,3 +2,4 @@
 sessions
 bundle
 plugged
+autoload/plug.vim.old
