@@ -9,6 +9,7 @@ Plug 'noahfrederick/vim-hemisu'
 Plug 'whatyouhide/vim-gotham'
 
 " Syntax Extensions:
+Plug 'rust-lang/rust.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'pangloss/vim-javascript'
 Plug 'cakebaker/scss-syntax.vim'
