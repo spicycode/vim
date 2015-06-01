@@ -10,6 +10,7 @@ Plug 'whatyouhide/vim-gotham'
 
 " Syntax Extensions:
 Plug 'rust-lang/rust.vim'
+Plug 'elixir-lang/vim-elixir'
 Plug 'kchmck/vim-coffee-script'
 Plug 'pangloss/vim-javascript'
 Plug 'cakebaker/scss-syntax.vim'
