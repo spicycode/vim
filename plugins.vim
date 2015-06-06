@@ -54,6 +54,7 @@ Plug 'tpope/vim-rake'
 Plug 'tpope/vim-surround'
 
 Plug 'gerw/vim-HiLinkTrace'
+Plug 'godlygeek/tabular'
 
 " Fix autoread 
 Plug 'tmux-plugins/vim-tmux-focus-events'
