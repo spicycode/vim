@@ -14,6 +14,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'kchmck/vim-coffee-script'
 Plug 'pangloss/vim-javascript'
 Plug 'cakebaker/scss-syntax.vim'
+Plug 'fatih/vim-nginx'
 Plug 'vim-ruby/vim-ruby'
 
 " Enable Fancy TMUX Navigation:
