@@ -29,9 +29,6 @@ Plug 'rking/ag.vim'
 " Change 1.8 -> 1.9 Hash Syntax:
 Plug 'ck3g/vim-change-hash-syntax'
 
-" RuboCop -> Quickfix (I like this better than always on syntastic):
-Plug 'ngmy/vim-rubocop'
-
 " Current function info for status bar
 Plug 'vim-scripts/current-func-info.vim'
 
