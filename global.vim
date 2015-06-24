@@ -77,8 +77,8 @@ set shiftwidth=2
 " Round indent by a multiple of shiftwidth in indent mode
 set shiftround
 
-set number                              " Enable line numbers
-set numberwidth=3                       " Set line number column width
+set nonumber                              " Disable line numbers
+" set numberwidth=3                       " Set line number column width
 
 " WindowAndBufferManagement:
 
