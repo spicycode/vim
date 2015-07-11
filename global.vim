@@ -36,7 +36,6 @@ set ttyfast
 " Also match angle brackets
 set matchpairs+=<:>       
 
-
 " Undo Configuration:
 
 " Enable undo file
@@ -78,7 +77,6 @@ set shiftwidth=2
 set shiftround
 
 set nonumber                              " Disable line numbers
-" set numberwidth=3                       " Set line number column width
 
 " WindowAndBufferManagement:
 
