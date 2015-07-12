@@ -108,9 +108,6 @@ set hidden
 " Show line wraps with fancy action
 set showbreak=↪
 
-" Help Program: Use vim help instead of language specific for shift-k
-set keywordprg=:help
-
 " Always show status bar
 set laststatus=2
 
