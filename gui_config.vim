@@ -1,4 +1,4 @@
-" " Keybindings:
+" Keybindings:
 source ~/.vim/keybindings.gui.vim
 
 " Font: Enable anti-aliasing
@@ -22,4 +22,4 @@ set guicursor=a:blinkon0
 
 set background=light
 colorscheme github256
-set guifont=Consolas:h16
+set guifont=Sauce\ Code\ Powerline:h14
