@@ -40,6 +40,7 @@ Plug 'JazzCore/ctrlp-cmatcher', { 'do': './install.sh' }
 Plug 'Shougo/neocomplcache.vim'
 
 " The Tim Pope section of the VIM config:
+Plug 'tpope/vim-rsi'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-commentary'
