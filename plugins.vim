@@ -51,6 +51,7 @@ Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-rake'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-rsi'
 
 Plug 'gerw/vim-HiLinkTrace'
 Plug 'godlygeek/tabular'
