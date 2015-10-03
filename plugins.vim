@@ -20,9 +20,6 @@ Plug 'vim-ruby/vim-ruby'
 " Enable Fancy TMUX Navigation:
 Plug 'christoomey/vim-tmux-navigator'
 
-" Graphical Undo Visualization:
-Plug 'sjl/gundo.vim'
-
 " The Silver Surfer: 
 Plug 'rking/ag.vim'
 
