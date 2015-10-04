@@ -23,9 +23,6 @@ Plug 'christoomey/vim-tmux-navigator'
 " The Silver Surfer: 
 Plug 'rking/ag.vim'
 
-" Change 1.8 -> 1.9 Hash Syntax:
-Plug 'ck3g/vim-change-hash-syntax'
-
 " Current function info for status bar
 Plug 'vim-scripts/current-func-info.vim'
 
