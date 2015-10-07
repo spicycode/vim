@@ -4,5 +4,3 @@ ln -s ~/.vim/gvimrc ~/.gvimrc
 
 vim +PlugInstall +qall
 
-cd bundle/ctrlp-cmatcher && ./install.sh && cd - 
-

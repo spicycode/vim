@@ -22,4 +22,4 @@ set guicursor=a:blinkon0
 
 set background=light
 colorscheme github256
-set guifont=Sauce\ Code\ Powerline:h14
+set guifont=Hack:h14
