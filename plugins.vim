@@ -20,14 +20,8 @@ Plug 'vim-ruby/vim-ruby'
 " Enable Fancy TMUX Navigation:
 Plug 'christoomey/vim-tmux-navigator'
 
-" Graphical Undo Visualization:
-Plug 'sjl/gundo.vim'
-
 " The Silver Surfer: 
 Plug 'rking/ag.vim'
-
-" Change 1.8 -> 1.9 Hash Syntax:
-Plug 'ck3g/vim-change-hash-syntax'
 
 " Current function info for status bar
 Plug 'vim-scripts/current-func-info.vim'
