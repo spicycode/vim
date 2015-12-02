@@ -80,3 +80,8 @@ let g:neocomplcache_include_suffixes = {
   \ 'haskell' : '.hs'
   \ }
 
+
+" Clojure config
+let g:clojure_syntax_keywords = {
+    \ 'clojureMacro': ["defproject", "defspout", "defbolt"]
+    \ }

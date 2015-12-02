@@ -17,6 +17,11 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'fatih/vim-nginx'
 Plug 'vim-ruby/vim-ruby'
 
+" Clojure Town:
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'guns/vim-clojure-static'
+Plug 'tpope/vim-fireplace'
+
 " Enable Fancy TMUX Navigation:
 Plug 'christoomey/vim-tmux-navigator'
 
