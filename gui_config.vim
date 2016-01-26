@@ -20,6 +20,5 @@ set guioptions-=e
 " Don't flick cursor.
 set guicursor=a:blinkon0
 
-set background=dark
 colorscheme base16-ocean
 set guifont=Hack:h14
