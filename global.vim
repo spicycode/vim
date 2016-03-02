@@ -76,7 +76,7 @@ set shiftwidth=2
 " Round indent by a multiple of shiftwidth in indent mode
 set shiftround
 
-set nonumber                              " Disable line numbers
+set number                              " Enable line numbers
 
 " WindowAndBufferManagement:
 
