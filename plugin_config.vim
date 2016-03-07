@@ -85,3 +85,6 @@ let g:neocomplcache_include_suffixes = {
 let g:clojure_syntax_keywords = {
     \ 'clojureMacro': ["defproject", "defspout", "defbolt"]
     \ }
+
+" RubyFold:
+let g:ruby_fold_lines_limit = 500
