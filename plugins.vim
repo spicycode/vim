@@ -17,7 +17,6 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'fatih/vim-nginx'
 Plug 'vim-ruby/vim-ruby'
 Plug 'ap/vim-css-color'
-Plug 'vim-utils/vim-ruby-fold'
 
 " Clojure Town:
 Plug 'kien/rainbow_parentheses.vim'
