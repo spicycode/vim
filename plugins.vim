@@ -16,6 +16,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'fatih/vim-nginx'
 Plug 'vim-ruby/vim-ruby'
+Plug 'JulesWang/css.vim'
 Plug 'ap/vim-css-color'
 
 " Clojure Town:
