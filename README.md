@@ -1,6 +1,4 @@
-# Vimlander 2: The quickening
-
-VIM was reborn like unto the noble phoenix.  And so it was as it always should be since the dawn of the end of times.
+# VIM Config
 
 ## To install
 
@@ -9,8 +7,6 @@ ln -s ~/whereveryouputit ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 
 vim +PlugInstall +qall
-
-cd bundle/ctrlp-cmatcher && ./install.sh && cd - 
 ```
 
 ## Per user config
