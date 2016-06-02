@@ -88,3 +88,4 @@ let g:clojure_syntax_keywords = {
 
 " RubyFold:
 let g:ruby_fold_lines_limit = 500
+

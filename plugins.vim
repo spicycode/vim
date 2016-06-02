@@ -18,6 +18,7 @@ Plug 'fatih/vim-nginx'
 Plug 'vim-ruby/vim-ruby'
 Plug 'JulesWang/css.vim'
 Plug 'ap/vim-css-color'
+Plug 'scrooloose/syntastic'
 
 " Clojure Town:
 Plug 'kien/rainbow_parentheses.vim'
@@ -36,6 +37,7 @@ Plug 'vim-scripts/current-func-info.vim'
 " Fuzzy Finding:
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'JazzCore/ctrlp-cmatcher', { 'do': './install.sh' }
+
 
 " AutoCompletion:
 Plug 'Shougo/neocomplcache.vim'
